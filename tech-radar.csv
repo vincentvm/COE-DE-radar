@@ -1,0 +1,20 @@
+name;ring;quadrant;isNew;description
+Apache Kafka;Adopt;Data ingestion;FALSE;<p>Kafka cluster is used for streaming services</p>
+Azure event hubs;Adopt;Data ingestion;FALSE;<p>Ingest data from different services on a large scale</p>
+Azure Data Lake Storage;Adopt;Data ingestion;FALSE;<p>Ingest all data in a lake from the Azure Blob storage</p>
+MongoDB;Adopt;Data management;FALSE;<p>Open source database management system for SQL and NoSQL problems</p>
+Feast;Assess;Data management;TRUE;<p>Feature management of the machine learning models</p>
+Azure SQL;Adopt;Data management;FALSE;<p>Basic SQL server with queries on the azure platform</p>
+Azure CosmosDB;Adopt;Data management;FALSE;<p>DB in which many types of NoSQL structures can be kept on the azure platform</p>
+Azure Databricks;Adopt;Data management;FALSE;<p>Create pipelines on distributed data storage</p>
+Kubernetes;Adopt;Model serving;FALSE;<p>Deployment tool for load balanced pods with containers</p>
+Docker;Adopt;Model serving;FALSE;<p>Container images with small VM and only the necessary software to run the app</p>
+Azure service fabric;Assess;Model serving;FALSE;<p>Same level as the docker instances, service fabric gives scaling capabilities for applications </p>
+Azure application service;Assess;Model serving;FALSE;<p>A VM with a running application for public use</p>
+Azure function application;Assess;Model serving;FALSE;<p>One layer deeper than docker is a function app. Functions deploy on demand with good scaling properties</p>
+Azure machine learning services;Adopt;Orchestration;FALSE;<p>Stores models and images. Pre-deployment data storage</p>
+Argo;Trial;Orchestration;TRUE;<p>A workflow orchestrator for containered architectures</p>
+Apache Airflow;Trial;Orchestration;FALSE;<p>Apache airflow is used to create workflows in a machine learning architecture</p>
+Azure Data Factory;Hold;Orchestration;FALSE;<p>Used on the Azure platform to integrate data sources in the architecture. Limited by the supported data types</p>
+Azure Stream analytics;Adopt;Orchestration;FALSE;<p>Monitoring tool for streaming applications</p>
+Azure Data Catalog;Assess;Orchestration;TRUE;<p>Keeps track of all data storage with metadata</p>
